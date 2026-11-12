@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-12",
+  "revision": "resume-reviewed submission package",
+  "checks": {
+    "html_references": "PASS",
+    "internal_navigation": "PASS",
+    "one_h1_unique_ids": "PASS",
+    "image_alt_and_dimensions": "PASS",
+    "profile_photo_decode": "PASS (332, 425)",
+    "meetup_first": "PASS",
+    "gmail_address": "PASS",
+    "utf8": "PASS",
+    "new_tab_link_safety": "PASS",
+    "css_braces_and_breakpoints": "PASS",
+    "javascript_syntax": "PASS (node --check)"
+  },
+  "external_links": {
+    "meetup_github": "GitHub repository metadata and main directories retrieved successfully",
+    "bookcast_github": "GitHub repository metadata retrieved successfully during prior review",
+    "notion": "Source text retrieved; public unauthenticated access not verified"
+  },
+  "limitations": [
+    "Browser preview HTTP connection timed out. Local file URL disallowed by browser policy. Desktop/mobile visual execution not verified.",
+    "Project screen files are not embedded; project records are linked.",
+    "Photo uses previously available 332x425 JPG of supplied portrait; new PNG bytes unavailable.",
+    "Contribution text uses user project records. Feature-level commit authorship not independently validated."
+  ],
+  "private_information": "Street address, phone number, birth date and gender excluded"
+}
